@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM24 스타일 웹사이트</title>
+    <style>
+        /* 버튼 스타일 */
+        .btn {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #0066ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FM24 스타일 축구 웹사이트</h1>
+        <p>선수, 팀 전술, 경기 일정을 확인하세요!</p>
+    </header>
+    <div class="container">
+        <!-- 버튼 클릭 시 다른 페이지로 이동 (JavaScript) -->
+        <button class="btn" onclick="goToOtherPage()">다른 페이지로 이동</button>
+    </div>
+
+    <script>
+        function goToOtherPage() {
+            window.location.href = "otherpage.html"; // 원하는 페이지 URL로 변경
+        }
+    </script>
+</body>
+</html>
